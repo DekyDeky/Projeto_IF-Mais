@@ -1,0 +1,14 @@
+#Ignora dependências para não haver conflito
+/vendor/*
+!/vendor/.gitkeep
+
+#Ignora arquivos do storage usados para teste
+/storage/*
+!/storage/.gitkeep
+
+#Ignora autolodaer gerado
+composer.lock
+
+# Ignora configurações de ambiente e senhas
+.env
+
