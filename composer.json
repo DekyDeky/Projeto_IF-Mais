@@ -1,14 +1,13 @@
 {
-    "name": "awenk/projeto_if-mais",
-    "description": "Projeto do Portal IF Mais ",
+    "name": "ifmais/projeto_if-mais",
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "App/"
         }
     },
     "authors": [
         {
-            "name": "DekyDeky",
+            "name": "Equipe IF-Mais",
             "email": "dekyifprtb@gmail.com"
         }
     ],
