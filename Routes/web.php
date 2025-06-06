@@ -9,7 +9,7 @@ $base = '/Projeto_IF-Mais/Public';
 $route = str_replace($base, '', $url);
 
 switch ($route) {
-    case '/login':
+    case '/':
         (new LoginController())->mostrarLogin();
         break;
     default:
